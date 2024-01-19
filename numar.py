@@ -1,4 +1,7 @@
 import random
 
 numar_random = random.randint(1, 10)
-print(numar_random)
+
+for i in range(5):
+    numar_random = random.randint(1,200)
+    print(numar_random)
